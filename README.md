@@ -28,7 +28,7 @@ _Use git to check whether proper commit is done or not. Check whether cloning is
 ## Technologies Used
 
 * _HTML_
-* _CSS
+* _CSS_
 * _Javascript_
 * _jquery_
 
