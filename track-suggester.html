@@ -1,27 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script></script>
-<script></script>
-<script></script>
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <title>Track Suggester</title>
 </head>
 <body>
-<div id="header-box">
-<h1>TRACK SUGGESTER</h1>
-<h3><em>Welcome To Epicodus Track Suggester<em></h3>
-<div>
+  <div class="container">
+    <img src="epicodus.png" id="epicodus-logo" alt="epicodus logo" />
+   <h2>WELCOME TO EPICODUS TRACK SUGGESTER</h2>
+
+   <form id="contact-form">
+   <div class="row">
+     <div class="col-md-6">
+   <p>Please answer these questions to know the best track for you!!!!!</p>
+   <br>
+   <br>
+   <div class="form-group">
+    <label for="fullname">Full Name: </label>
+    <input class="form-control" type="text" name="Full Name" id="fullname">
+  </div>
+  <div class="form-group">
+    <label for="question1">You want to work for established businesses building internal software?</label>
+  <select class="form-control" id="question1">
+    <option>--Please select an answer--</option>
+  </select>
+  </div>
+  <div class="form-group">
+    <label for="question2">You want to work for an enterprise-level company, as an Android developer?</label>
+  <select class="form-control" id="question2">
+    <option>--Please select an answer--</option>
+  </select>
+  </div>
+  <div class="form-group">
+    <label for="question3">You want to work for mobile development?</label>
+  <select class="form-control" id="question3">
+    <option>--Please select an answer--</option>
+  </select>
+  </div>
+  <div class="form-group">
+    <label for="question4">You want to develop interactive web applications?</label>
+  <select class="form-control" id="question4">
+    <option>--Please select an answer--</option>
+  </select>
+  </div>
+  <div class="form-group">
+    <label for="question5">You want to designing only and not much interested in coding and logic?</label>
+  <select class="form-control" id="question5">
+    <option>--Please select an answer--</option>
+  </select>
+</div>
+<br><br>
+<button type="submit" class="btn btn-success btn-block submit">Submit</button>
+</div>
+</div>
+</form>
+<br><br>
+<h5>Congratulations <em><span id= "name"> </span></em>. Suggested Tracks for you are---</em></h5>
 <br>
-<form id ="user-form">
-<p id="intro-para">Don't stress too much about making the right choice! Please take the survey to determine which track would be the best for you...</p>
-<div class="form-group" id="name">
-<label for="name">First Name</label>
-<input type="text" name = "First Name" />
-<input type="radio" id="genderm" name="gender" value="male" />
-<label for="genderm">Male</label>
-<input type="radio" id="genderf" name="gender" value="female" />
-<label for="genderf">Female</label>
+<div class="col-md-6">
+<div id="csharp">
+  <h4>C-Sharp</h4>
+  <img src="c-sharp.png"  alt="c-sharp image" />
+</div>
+<div id="java">
+  <h4>JAVA</h4>
+  <img src="Java.png"  alt="java image" />
+</div>
+<div id="android" >
+  <h4>ANDROID</h4>
+  <img src="Android.png" alt="android image" />
+</div>
+<div id="ruby">
+  <h4>RUBY</h4>
+  <img src="Ruby.png"  alt="ruby image" />
+</div>
+<div id="design">
+  <h4>DESIGN</h4>
+  <img src="Design.png"   alt="design image" />
+</div>
+</div>
 </body>
 </html>
