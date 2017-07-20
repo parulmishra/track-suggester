@@ -27,10 +27,10 @@ _Use git to check whether proper commit is done or not. Check whether cloning is
 
 ## Technologies Used
 
-*_HTML_
-*_CSS
-*_Javascript
-*_Jquery_
+* _HTML_
+* _CSS
+* _Javascript_
+* _jquery_
 
 ### License
 
